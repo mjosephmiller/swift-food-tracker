@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A6172861E13DF79008B331B /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6172851E13DF79008B331B /* RatingControl.swift */; };
 		7A67A2DB1E11D3EF008442FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67A2DA1E11D3EF008442FA /* AppDelegate.swift */; };
 		7A67A2DD1E11D3EF008442FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67A2DC1E11D3EF008442FA /* ViewController.swift */; };
 		7A67A2E01E11D3EF008442FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A67A2DE1E11D3EF008442FA /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A6172851E13DF79008B331B /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		7A67A2D71E11D3EF008442FA /* foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A67A2DA1E11D3EF008442FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A67A2DC1E11D3EF008442FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				7A67A2DA1E11D3EF008442FA /* AppDelegate.swift */,
 				7A67A2DC1E11D3EF008442FA /* ViewController.swift */,
 				7A67A2DE1E11D3EF008442FA /* Main.storyboard */,
+				7A6172851E13DF79008B331B /* RatingControl.swift */,
 				7A67A2E11E11D3EF008442FA /* Assets.xcassets */,
 				7A67A2E31E11D3EF008442FA /* LaunchScreen.storyboard */,
 				7A67A2E61E11D3EF008442FA /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A67A2DD1E11D3EF008442FA /* ViewController.swift in Sources */,
+				7A6172861E13DF79008B331B /* RatingControl.swift in Sources */,
 				7A67A2DB1E11D3EF008442FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				7A67A3011E11D3EF008442FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A67A3021E11D3EF008442FA /* Build configuration list for PBXNativeTarget "foodieTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				7A67A3041E11D3EF008442FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A67A3051E11D3EF008442FA /* Build configuration list for PBXNativeTarget "foodieUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				7A67A3071E11D3EF008442FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
